@@ -10,7 +10,7 @@ const index = () => {
             <main className="home__main">
                 <h1>css style</h1>
                 <p>
-                    Hi there{" "}
+                    Hi there
                     <span role="img" aria-label="emoji">
                         👋
                     </span>
