@@ -421,6 +421,7 @@ footer {
     font-size: 2rem;
     z-index: 1000;
     border-radius: 10px;
+    text-align: center;
     animation: modal-animation 300ms linear;
 }
 
