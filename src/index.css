@@ -9,7 +9,6 @@
 }
 
 body {
-
     /* font-family: 'PT Sans Caption', sans-serif;      */
     font-family: "Sora", sans-serif;
 }
@@ -63,11 +62,9 @@ a {
     list-style-type: none;
     align-items: center;
     padding: 0 1.5rem;
-    transition: font-weight 1000ms ease-in-out;
 }
 
 .navbar ul li a {
-    transition: border 100ms ease-in-out;
     transform-origin: center;
     position: relative;
 }
@@ -163,6 +160,10 @@ footer {
     align-items: center;
 }
 
+.credit a{
+    margin: 0 5px;
+}
+
 .credit a:hover {
     border-bottom: 2px solid var(--accent-color);
 }
@@ -193,7 +194,7 @@ footer {
 }
 
 /* Box shadow route style */
-.shadow__container {
+.block-container {
     position: relative;
     width: 80%;
     margin: 0 10%;
@@ -202,6 +203,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 30px;
     padding-bottom: 100px;
 }
 
@@ -214,6 +216,187 @@ footer {
     display: grid;
     place-items: center;
 }
+
+/* Buttons Page Styles */
+
+.btn {
+    /* box-sizing: border-box; */
+    padding: 0.6rem 1.5rem;
+    border: none;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+    transition: 100ms ease-in-out;
+}
+
+
+.btn-1,
+.btn-2,
+.btn-3,
+.btn-4,
+.btn-5,
+.btn-6,
+.btn-7,
+.btn-8,
+.btn-9,
+.btn-10,
+.btn-11,
+.btn-12,
+.btn-13,
+.btn-14,
+.btn-15,
+.btn-16
+ {
+    background-color: var(--btn-bg);
+    color: var(--btn-clr);
+    border: 2px solid var(--btn-bg);
+}   
+
+.btn-1 {
+    --btn-bg: red;
+    --btn-clr: white;
+}
+
+.btn-2 {
+    --btn-bg: black;
+    --btn-clr: white;
+}
+.btn-3{
+    --btn-bg: #04da04;
+    --btn-clr: white;
+}
+.btn-4{
+    --btn-bg: #eed202;
+    --btn-clr: white;
+}
+.btn-5{
+    --btn-bg: #2EA44F;
+    --btn-clr: white;
+}
+.btn-6{
+    --btn-bg: #1652F0;
+    --btn-clr: white;
+}
+.btn-7{
+    --btn-bg: #0A66C2;
+    --btn-clr: white;
+}
+.btn-8{
+    --btn-bg: #405CF5;
+    --btn-clr: white;
+}
+.btn-9{
+    --btn-bg: #FAFBFC;
+    --btn-clr: black;
+    box-shadow: 0 0 3px black;
+}
+.btn-10{
+    --btn-bg: #0066FF;
+    --btn-clr: white;
+}
+.btn-11{
+    --btn-bg: #2C445A;
+    --btn-clr: white;
+}
+.btn-12{
+    --btn-bg : #fff;
+    --btn-clr: #111;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.7);
+    border: none;
+
+}
+.btn-13{
+    --btn-bg: #fff;
+    --btn-clr: #111;
+    box-shadow: 2px 2px 50px -10px rgba(0, 0, 0, 0.7);
+    border: none;
+
+}
+.btn-14{
+    --btn-bg: #fff;
+    --btn-clr: #111;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    border: none;
+    
+}
+.btn-15{
+    --btn-bg: #fff;
+    --btn-clr: #111;
+    border: none;
+    box-shadow: 0 0 5px -2px rgba(0, 0, 0, 0.7);
+}
+.btn-16{
+    --btn-bg: #d3d3d3;
+    --btn-clr: #111;
+    box-shadow: 0 0 5px -2px rgba(0, 0, 0, 0.7);
+    border: none;
+
+}
+
+
+/* BTNs Hover Styles */
+.btn-1:hover {
+    --btn-bg: white;
+    --btn-clr: red;
+    border: 2px solid var(--btn-clr);
+}
+
+.btn-2:hover {
+    --btn-bg: white;
+    --btn-clr: black;
+    border: 2px solid var(--btn-clr);
+}
+.btn-3:hover {
+    --btn-bg: white;
+    --btn-clr: #04da04;
+    border: 2px solid var(--btn-clr);
+}
+.btn-4:hover {
+    --btn-bg: white;
+    --btn-clr: #eed202;
+    border: 2px solid var(--btn-clr);
+}
+.btn-5:hover {
+    --btn-bg: white;
+    --btn-clr: #2EA44F;
+    border: 2px solid var(--btn-clr);
+}
+.btn-6:hover {
+    --btn-bg: white;
+    --btn-clr: #1652F0;
+    border: 2px solid var(--btn-clr);
+}
+.btn-7:hover {
+    --btn-bg: white;
+    --btn-clr: #0A66C2;
+    border: 2px solid var(--btn-clr);
+}
+.btn-8:hover {
+    --btn-bg: white;
+    --btn-clr: #405CF5;
+    border: 2px solid var(--btn-clr);
+}
+.btn-9:hover {
+    --btn-bg: #FAFBFC;
+    --btn-clr: black;
+}
+.btn-10:hover {
+    --btn-bg: white;
+    --btn-clr: #0066FF;
+    border: 2px solid var(--btn-clr);
+}
+
+.btn-11:hover {
+    --btn-bg: white;
+    --btn-clr: #2C445A;
+    border: 2px solid var(--btn-clr);
+}
+
+.btn-16:hover {
+    opacity: 0.7;
+}
+
 
 /* Modal Style */
 
@@ -278,5 +461,8 @@ footer {
 @media screen and (max-width: 400px) {
     .navbar {
         font-size: 0.8rem;
+    }
+    .btn {
+        margin:10px;
     }
 }
