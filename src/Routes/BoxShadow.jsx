@@ -14,7 +14,7 @@ const BoxShadow = () => {
             <div className="boxShadow_container">
                 <Greeting title="Box-Shadows" />
 
-                <div className="shadow__container">
+                <div className="block-container">
                     {shadows.map((shadow) => {
                         return (
                             <BoxShadowDiv
